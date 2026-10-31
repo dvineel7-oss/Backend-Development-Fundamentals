@@ -50,16 +50,16 @@ node server.js
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](lab-01/screenshots/home.png)
 
 ### About Page
-![About Page](screenshots/about.png)
+![About Page](lab-01/screenshots/about.png)
 
 ### Time Page
-![Time Page](screenshots/time.png)
+![About Page](lab-01/screenshots/about.png)
 
 ### 404 Page
-![404 Page](screenshots/404.png)
+![404 Page](lab-01/screenshots/404.png)
 
 ## Notes
 - Created a Node.js HTTP server using `http.createServer()`.
