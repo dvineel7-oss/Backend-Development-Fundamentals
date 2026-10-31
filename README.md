@@ -61,9 +61,38 @@ node server.js
 ### 404 Page
 ![404 Page](lab-01/screenshots/404.png)
 
-## Notes
-- Created a Node.js HTTP server using `http.createServer()`.
-- Created an Express server.
-- Implemented GET routes.
-- Implemented a 404 response for unknown routes.
-- Tested the endpoints successfully.
+Problems Faced and Solutions
+
+1. Setting Up the Node.js Server
+
+Problem: Setting up the basic Node.js server and running it using the correct filename.
+
+Solution: Created the HTTP server using Node.js and used the correct command, node http-server.js, to run it.
+
+2. Installing Express.js
+
+Problem: The project required the Express.js framework to implement routes.
+
+Solution: Installed Express using npm install express and verified the installation.
+
+3. Implementing Routes
+
+Problem: The server needed to return different responses for different URL paths.
+
+Solution: Created Express GET routes for the home page, about page, and current date and time.
+
+4. Handling Invalid Routes
+
+Problem: Requests to unknown URLs needed to return an appropriate error response.
+
+Solution: Added fallback middleware that returns a 404 status code and a page-not-found message.
+
+5. Deploying the Application
+
+Problem: The application needed to be accessible through a public URL.
+
+Solution: Uploaded the project to GitHub and deployed the Express server using Render.
+
+Conclusion
+
+This lab provided practical experience in creating web servers using Node.js and Express.js. It helped develop an understanding of HTTP requests and responses, route handling, JSON output, date and time operations, HTTP status codes, package management, Git version control, and cloud deployment using Render.
