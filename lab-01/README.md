@@ -6,7 +6,10 @@
 - **Section:** CSE-QE-2A
 
 ## Live Link
-(https://backend-development-fundamentals-lab-1-zhmi.onrender.com)
+https://backend-development-fundamentals-lab-1-zhmi.onrender.com
+
+## GitHub Repository
+https://github.com/dvineel7-oss/Backend-Development-Fundamentals
 
 ## Project Description
 This project demonstrates how to create a basic web server using Node.js HTTP module and Express.js.
